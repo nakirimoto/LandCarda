@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "fontsanae";
+    src: url(fonte/bebas_neue/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: #ffdd86;
+    font-family: "fontsanae";
+    color: #3f3d38;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bloco{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.bloco2{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav1{
+    text-align: center;
+    align-content: space-around;
+}
+
+.nav1 ul li{
+   display: inline-block;
+   margin: 0 100px;
+}
+
+.nav2{
+    text-align: center;
+}
+
+.nav2 ul li{
+   display: inline-block;
+   margin: 0 100px;
+}
+
+h1{
+    font-family: "fontsanae";
+    color: #3f3d38;
+    font-size: clamp(2rem, 3vw, 4rem);
+}
+
+h2{
+    background-color: #3f3d38;
+    color: white;
+    font-family: "fontsanae";
+    text-align: center;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+h3{
+    font-family: "fontsanae";
+    color: #3f3d38;
+    font-size: clamp(1.5rem, 3vw, 2.3rem);
+}
+
+ul{
+    list-style: none;
+    font-family: "fontsanae";
+    color: #3f3d38;
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.backmenu{
+    background-color: white;
+    border: #ffc566;
+    border-width: 30px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+article p{
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-family: "fontsanae";
+}
+
+.back{
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:768px){
+    .titulo{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px){
+    .titulo{
+        flex-direction: column;
+    }
+    }
+
